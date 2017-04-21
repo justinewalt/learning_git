@@ -13,3 +13,11 @@ if ( age > 19) {
 } else {
     console.log('little kid, homie.');
 }
+
+var carButton = document.getElementById('get-car');
+carButton.addEventListener('click', function() {
+    // i need to find the input off the page
+    var carInput = document.getElementById('car');
+    // i need to console log the input value
+    console.log(carInput.value);
+});
